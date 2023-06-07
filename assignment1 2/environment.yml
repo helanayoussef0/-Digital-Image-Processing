@@ -1,0 +1,11 @@
+name: ele882-assignment1
+channels:
+    - default
+    - conda-forge
+dependencies:
+    - python=3.8
+    - numpy=1.19
+    - pip
+    - pip:
+        - flake8
+        - pytest
